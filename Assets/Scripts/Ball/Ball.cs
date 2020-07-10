@@ -3,7 +3,7 @@
 [RequireComponent(typeof(Rigidbody2D))]
 public class Ball : MonoBehaviour {
 
-	public float speed;
+	public float speed =1;
 	public BallMovement ballMovement { get; set; }
 
 	private Rigidbody2D rb;
